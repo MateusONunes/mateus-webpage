@@ -20,9 +20,63 @@
 
 <body>
 
-    <h1>Chat Odoo-versão 2.3</h1>
+<div class="header-card">
+    <div class="badge">Odoo 18</div>
+    <h1>Chat Odoo <span class="version">v2.3</span></h1>
+    <p>Demonstração e teste do módulo <code>im_livechat</code></p>
+</div>
 
-    <p>Teste do módulo im_livechat do Odoo 18</p>
+<style>
+    .header-card {
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 32px 24px;
+        max-width: 600px;
+        margin: 40px auto;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
 
+    .badge {
+        display: inline-block;
+        background-color: #714B67; /* Roxo característico do Odoo */
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 4px 12px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 12px;
+    }
+
+    .header-card h1 {
+        color: #1f2937;
+        font-size: 28px;
+        margin: 0 0 8px 0;
+        font-weight: 700;
+    }
+
+    .header-card h1 .version {
+        color: #00A09D; /* Verde/Teal do Odoo */
+        font-weight: 600;
+    }
+
+    .header-card p {
+        color: #6b7280;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .header-card code {
+        background: #f3f4f6;
+        color: #374151;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+</style>
 </body>
 </html>
